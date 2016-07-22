@@ -15,6 +15,12 @@
 		04BAF1BB1D41CD4600F85692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1B91D41CD4600F85692 /* LaunchScreen.storyboard */; };
 		04BAF1C61D41CD4600F85692 /* BezierCurveLineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAF1C51D41CD4600F85692 /* BezierCurveLineTestTests.m */; };
 		04BAF1D11D41CD4600F85692 /* BezierCurveLineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAF1D01D41CD4600F85692 /* BezierCurveLineTestUITests.m */; };
+		04BAF1E81D41CDEE00F85692 /* BezierCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAF1E61D41CDEE00F85692 /* BezierCurveView.m */; };
+		04BAF1E91D41CDEE00F85692 /* BezierCurveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1E71D41CDEE00F85692 /* BezierCurveView.xib */; };
+		04BAF1EF1D41CDF700F85692 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1EB1D41CDF700F85692 /* bar.png */; };
+		04BAF1F01D41CDF700F85692 /* line1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1EC1D41CDF700F85692 /* line1.png */; };
+		04BAF1F11D41CDF700F85692 /* line2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1ED1D41CDF700F85692 /* line2.png */; };
+		04BAF1F21D41CDF700F85692 /* pie.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BAF1EE1D41CDF700F85692 /* pie.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		04BAF1CC1D41CD4600F85692 /* BezierCurveLineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierCurveLineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BAF1D01D41CD4600F85692 /* BezierCurveLineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierCurveLineTestUITests.m; sourceTree = "<group>"; };
 		04BAF1D21D41CD4600F85692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BAF1E51D41CDEE00F85692 /* BezierCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierCurveView.h; sourceTree = "<group>"; };
+		04BAF1E61D41CDEE00F85692 /* BezierCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierCurveView.m; sourceTree = "<group>"; };
+		04BAF1E71D41CDEE00F85692 /* BezierCurveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BezierCurveView.xib; sourceTree = "<group>"; };
+		04BAF1EB1D41CDF700F85692 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		04BAF1EC1D41CDF700F85692 /* line1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line1.png; sourceTree = "<group>"; };
+		04BAF1ED1D41CDF700F85692 /* line2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2.png; sourceTree = "<group>"; };
+		04BAF1EE1D41CDF700F85692 /* pie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pie.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,8 @@
 		04BAF1AA1D41CD4600F85692 /* BezierCurveLineTest */ = {
 			isa = PBXGroup;
 			children = (
+				04BAF1EA1D41CDF700F85692 /* screenshots */,
+				04BAF1E41D41CDEE00F85692 /* BezierCurvcLineTool */,
 				04BAF1AE1D41CD4600F85692 /* AppDelegate.h */,
 				04BAF1AF1D41CD4600F85692 /* AppDelegate.m */,
 				04BAF1B11D41CD4600F85692 /* ViewController.h */,
@@ -138,6 +153,27 @@
 				04BAF1D21D41CD4600F85692 /* Info.plist */,
 			);
 			path = BezierCurveLineTestUITests;
+			sourceTree = "<group>";
+		};
+		04BAF1E41D41CDEE00F85692 /* BezierCurvcLineTool */ = {
+			isa = PBXGroup;
+			children = (
+				04BAF1E51D41CDEE00F85692 /* BezierCurveView.h */,
+				04BAF1E61D41CDEE00F85692 /* BezierCurveView.m */,
+				04BAF1E71D41CDEE00F85692 /* BezierCurveView.xib */,
+			);
+			path = BezierCurvcLineTool;
+			sourceTree = "<group>";
+		};
+		04BAF1EA1D41CDF700F85692 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04BAF1EB1D41CDF700F85692 /* bar.png */,
+				04BAF1EC1D41CDF700F85692 /* line1.png */,
+				04BAF1ED1D41CDF700F85692 /* line2.png */,
+				04BAF1EE1D41CDF700F85692 /* pie.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +279,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BAF1F21D41CDF700F85692 /* pie.png in Resources */,
 				04BAF1BB1D41CD4600F85692 /* LaunchScreen.storyboard in Resources */,
+				04BAF1EF1D41CDF700F85692 /* bar.png in Resources */,
+				04BAF1E91D41CDEE00F85692 /* BezierCurveView.xib in Resources */,
 				04BAF1B81D41CD4600F85692 /* Assets.xcassets in Resources */,
 				04BAF1B61D41CD4600F85692 /* Main.storyboard in Resources */,
+				04BAF1F01D41CDF700F85692 /* line1.png in Resources */,
+				04BAF1F11D41CDF700F85692 /* line2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BAF1B31D41CD4600F85692 /* ViewController.m in Sources */,
+				04BAF1E81D41CDEE00F85692 /* BezierCurveView.m in Sources */,
 				04BAF1B01D41CD4600F85692 /* AppDelegate.m in Sources */,
 				04BAF1AD1D41CD4600F85692 /* main.m in Sources */,
 			);
