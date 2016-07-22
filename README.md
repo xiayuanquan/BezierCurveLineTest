@@ -76,7 +76,11 @@ UIBezierPath ：画贝塞尔曲线的path类
 
 
 演示截图如下：
+
  ![image](https://github.com/xiayuanquan/BezierCurveLineTest/blob/master/BezierCurveLineTest/BezierCurveLineTest/screenshots/bar.png)
+ 
  ![image](https://github.com/xiayuanquan/BezierCurveLineTest/blob/master/BezierCurveLineTest/BezierCurveLineTest/screenshots/line1.png)
+ 
  ![image](https://github.com/xiayuanquan/BezierCurveLineTest/blob/master/BezierCurveLineTest/BezierCurveLineTest/screenshots/line2.png)
+ 
  ![image](https://github.com/xiayuanquan/BezierCurveLineTest/blob/master/BezierCurveLineTest/BezierCurveLineTest/screenshots/pie.png)
