@@ -32,12 +32,12 @@
     //画直线
     - (void)addLineToPoint:(CGPoint)point;
     //画曲线
-        (1)绘制二次贝塞尔曲线   分别对应终点和一个控制点
+    (1)绘制二次贝塞尔曲线   分别对应终点和一个控制点
         -(void)addQuadCurveToPoint:(CGPoint)endPoint controlPoint:(CGPoint)controlPoint
-        (2)绘制三次贝塞尔曲线   分别对应终点和两个控制点
+    (2)绘制三次贝塞尔曲线   分别对应终点和两个控制点
         -(void)addCurveToPoint:(CGPoint)endPoint controlPoint1:(CGPoint)controlPoint1 controlPoint2:(CGPoint)controlPoint2;
     //画圆弧
-        -(void)addArcWithCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise
+    -(void)addArcWithCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise
  
  使用贝塞尔曲线的基本步骤是：
 
