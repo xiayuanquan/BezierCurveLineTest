@@ -3,17 +3,16 @@
 
 介绍：贝塞尔曲线
 
-UIBezierPath ：画贝塞尔曲线的path类
-UIBezierPath定义 ： 贝赛尔曲线的每一个顶点都有两个控制点，用于控制在该顶点两侧的曲线的弧度。
-曲线的定义有四个点：起始点、终止点（也称锚点）以及两个相互分离的中间点。
-滑动两个中间点，贝塞尔曲线的形状会发生变化。
-UIBezierPath ：对象是CGPathRef数据类型的封装，可以方便的让我们画出 矩形 、 椭圆 或者 直线和曲线的组合形状
+    UIBezierPath ：画贝塞尔曲线的path类
+    UIBezierPath定义 ： 贝赛尔曲线的每一个顶点都有两个控制点，用于控制在该顶点两侧的曲线的弧度。
+    曲线的定义有四个点：起始点、终止点（也称锚点）以及两个相互分离的中间点。
+    滑动两个中间点，贝塞尔曲线的形状会发生变化。
+    UIBezierPath ：对象是CGPathRef数据类型的封装，可以方便的让我们画出 矩形 、 椭圆 或者 直线和曲线的组合形状
  
- 初始化方法：
- + (instancetype)bezierPath;
- 
- //创建一个矩形
- + (instancetype)bezierPathWithRect:(CGRect)rect;
+  //初始化方法：
+  + (instancetype)bezierPath;
+  //创建一个矩形
+  + (instancetype)bezierPathWithRect:(CGRect)rect;
  
  //创建圆形或者椭圆形
  + (instancetype)bezierPathWithOvalInRect:(CGRect)rect;
