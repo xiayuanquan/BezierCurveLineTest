@@ -11,14 +11,17 @@
     UIBezierPath ：对象是CGPathRef数据类型的封装，可以方便的让我们画出 矩形 、 椭圆 或者 直线和曲线的组合形状
  
 ###初始化方法：
+------------------------------------
 
     +(instancetype)bezierPath;
     
 ###创建一个矩形
+------------------------------------
 
     +(instancetype)bezierPathWithRect:(CGRect)rect;
  
 ###创建圆形或者椭圆形
+------------------------------------
 
     +(instancetype)bezierPathWithOvalInRect:(CGRect)rect;
     +(instancetype)bezierPathWithRoundedRect:(CGRect)rect cornerRadius:(CGFloat)cornerRadius; // rounds all corners with the same horizontal and vertical radius
@@ -27,6 +30,7 @@
     +(instancetype)bezierPathWithCGPath:(CGPathRef)CGPath;
  
 ###最基本的使用方法是：
+------------------------------------
 
     //设置描绘的起点
     - (void)moveToPoint:(CGPoint)point;
@@ -41,6 +45,7 @@
     -(void)addArcWithCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise
  
 ###使用贝塞尔曲线的基本步骤是：
+------------------------------------
 
     (1）创建一个Bezier path对象。
     (2) 使用方法moveToPoint:去设置初始线段的起点。
