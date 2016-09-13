@@ -1,8 +1,8 @@
 # BezierCurveLineTest
 贝塞尔曲线绘制图表
-============================================
+-----------------
 
-###介绍：贝塞尔曲线
+### 介绍：贝塞尔曲线
 
     UIBezierPath ：画贝塞尔曲线的path类
     UIBezierPath定义 ： 贝赛尔曲线的每一个顶点都有两个控制点，用于控制在该顶点两侧的曲线的弧度。
@@ -10,15 +10,15 @@
     滑动两个中间点，贝塞尔曲线的形状会发生变化。
     UIBezierPath ：对象是CGPathRef数据类型的封装，可以方便的让我们画出 矩形 、 椭圆 或者 直线和曲线的组合形状
  
-###初始化方法：
+### 初始化方法：
 
     +(instancetype)bezierPath;
     
-###创建一个矩形
+### 创建一个矩形
 
     +(instancetype)bezierPathWithRect:(CGRect)rect;
  
-###创建圆形或者椭圆形
+### 创建圆形或者椭圆形
 
     +(instancetype)bezierPathWithOvalInRect:(CGRect)rect;
     +(instancetype)bezierPathWithRoundedRect:(CGRect)rect cornerRadius:(CGFloat)cornerRadius; // rounds all corners with the same horizontal and vertical radius
@@ -26,7 +26,7 @@
     +(instancetype)bezierPathWithArcCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise;
     +(instancetype)bezierPathWithCGPath:(CGPathRef)CGPath;
  
-###最基本的使用方法是：
+### 最基本的使用方法是：
 
     //设置描绘的起点
     - (void)moveToPoint:(CGPoint)point;
@@ -40,7 +40,7 @@
     //画圆弧
     -(void)addArcWithCenter:(CGPoint)center radius:(CGFloat)radius startAngle:(CGFloat)startAngle endAngle:(CGFloat)endAngle clockwise:(BOOL)clockwise
  
-###使用贝塞尔曲线的基本步骤是：
+### 使用贝塞尔曲线的基本步骤是：
 
     (1）创建一个Bezier path对象。
     (2) 使用方法moveToPoint:去设置初始线段的起点。
@@ -48,7 +48,7 @@
     (4) 改变UIBezierPath对象跟绘图相关的属性。
     
 
-###类工具方法的使用如下：
+### 类工具方法的使用如下：
 
     //初始化画布
     +(instancetype)initWithFrame:(CGRect)frame;
@@ -79,7 +79,7 @@
     -(void)drawPieChartViewWithX_Value_Names:(NSMutableArray *)x_names TargetValues:(NSMutableArray *)targetValues;
 
 
-###演示截图如下：
+### 演示截图如下：
 
  ![image](https://github.com/xiayuanquan/BezierCurveLineTest/blob/master/BezierCurveLineTest/BezierCurveLineTest/screenshots/bar.png)
  
